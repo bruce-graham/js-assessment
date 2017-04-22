@@ -12,7 +12,9 @@ exports.arraysAnswers = {
   },
 
   sum: function(arr) {
-
+    return arr.reduce(function(accum, item) {
+      return accum += item;
+    });
   },
 
   remove: function(arr, item) {
