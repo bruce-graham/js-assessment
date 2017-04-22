@@ -22,7 +22,7 @@
     "underscore": "1.8.x"
   },
   "scripts": {
-    "start": "node index.js",
+    "start": "nodemon index.js",
     "test": "mocha -R spec 'tests/app'",
     "lint": "eslint --quiet tests/app app",
     "lint-warn": "eslint tests/app app"
